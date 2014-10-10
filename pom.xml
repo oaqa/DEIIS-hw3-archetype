@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>edu.cmu.lti.11791.f14.hw3</groupId>
 	<artifactId>hw2-archetype</artifactId>
-	<version>0.0.15</version>
+	<version>0.0.16-SNAPSHOT</version>
 	<name>hw3-archetype</name>
 	<build>
 		<extensions>
@@ -53,7 +53,7 @@
  <scm>
     <connection>scm:git:git@github.com:oaqa/DEIIS-hw3-archetype.git</connection>
     <developerConnection>scm:git:git@github.com:oaqa/DEIIS-hw3-archetype.git</developerConnection>
-    <tag>hw2-archetype-0.0.15</tag>
+    <tag>HEAD</tag>
   </scm>
     <repositories>
     <repository>
