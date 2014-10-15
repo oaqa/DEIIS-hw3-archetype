@@ -3,7 +3,7 @@
 <archetype>
 <groupId>edu.cmu.lti.11791.f14.hw3</groupId>
 <artifactId>hw3-archetype</artifactId>
-<version>0.0.21</version>
+<version>0.0.22</version>
 <description>hw3</description>
 </archetype>
 </archetypes>
