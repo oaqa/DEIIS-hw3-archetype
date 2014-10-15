@@ -26,6 +26,22 @@ public class DocumentVectorAnnotator extends JCasAnnotator_ImplBase {
 		}
 
 	}
+
+	/**
+   * A basic white-space tokenizer, it deliberately does not split on punctuation!
+   *
+	 * @param doc input text
+	 * @return    a list of tokens.
+	 */
+
+	List<String> tokenize0(String doc) {
+	  List<String> res = new ArrayList<String>();
+	  
+	  for (String s: doc.split("\\s+"))
+	    res.add(s);
+	  return res;
+	}
+
 	/**
 	 * 
 	 * @param jcas
@@ -37,6 +53,7 @@ public class DocumentVectorAnnotator extends JCasAnnotator_ImplBase {
 		String docText = doc.getText();
 		
 		//TO DO: construct a vector of tokens and update the tokenList in CAS
+    //TO DO: use tokenize0 from above 
 		
 
 	}
